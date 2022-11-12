@@ -1,0 +1,79 @@
+﻿  AudioCache.cpp
+  AudioEngine-win32.cpp
+  AudioPlayer.cpp
+  base64.cpp
+  CCAsyncTaskPool.cpp
+  CCAutoreleasePool.cpp
+  ccCArray.cpp
+  CCConfiguration.cpp
+  CCConsole.cpp
+  CCData.cpp
+  CCDataVisitor.cpp
+  CCDirector.cpp
+  CCEvent.cpp
+  CCEventAcceleration.cpp
+  CCEventCustom.cpp
+  CCEventDispatcher.cpp
+  CCEventFocus.cpp
+  CCEventKeyboard.cpp
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,23): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,31): error C2065: 'function': 선언되지 않은 식별자입니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+  CCEventListener.cpp
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,10): error C2974: 'std::vector': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(412): message : 'std::vector' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,38): fatal error C1903: 이전 오류를 복구할 수 없습니다. 컴파일이 중지됩니다. (소스 파일 컴파일 중 ..\audio\win32\AudioCache.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+  CCEventListenerAcceleration.cpp
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,23): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(24): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,31): error C2065: 'function': 선언되지 않은 식별자입니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,10): error C2974: 'std::vector': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(412): message : 'std::vector' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,38): fatal error C1903: 이전 오류를 복구할 수 없습니다. 컴파일이 중지됩니다. (소스 파일 컴파일 중 ..\audio\win32\AudioPlayer.cpp)
+  CCEventListenerCustom.cpp
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\mutex(30): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(63,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,37): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\mutex(30): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(65,45): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,23): error C2039: 'function': 'std'의 멤버가 아닙니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\mutex(30): message : 'std' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,31): error C2065: 'function': 선언되지 않은 식별자입니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,10): error C2974: 'std::vector': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(412): message : 'std::vector' 선언을 참조하십시오. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\audio\win32\AudioCache.h(101,38): fatal error C1903: 이전 오류를 복구할 수 없습니다. 컴파일이 중지됩니다. (소스 파일 컴파일 중 ..\audio\win32\AudioEngine-win32.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCAsyncTaskPool.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCAsyncTaskPool.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCDirector.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCDirector.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCConfiguration.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCConfiguration.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCConsole.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCConsole.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCEventDispatcher.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\physics\CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\base\CCEventDispatcher.cpp)
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\base\CCConsole.cpp(393,24): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'WCHAR *'입니다.
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\base\CCConsole.cpp(393,24): message : 서식 문자열에서 '%ls'을(를) 사용하는 것이 좋습니다.
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\base\CCConsole.cpp(393,24): message : 서식 문자열에서 '%lls'을(를) 사용하는 것이 좋습니다.
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\base\CCConsole.cpp(393,24): message : 서식 문자열에서 '%Ls'을(를) 사용하는 것이 좋습니다.
+C:\Users\admin\Downloads\SetupTest\cocos2d\cocos\base\CCConsole.cpp(393,24): message : 서식 문자열에서 '%ws'을(를) 사용하는 것이 좋습니다.
+cl : 명령줄 error D8040: 자식 프로세스를 만들거나 통신하는 동안 오류가 발생했습니다.

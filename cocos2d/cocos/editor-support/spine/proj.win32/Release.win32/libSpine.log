@@ -1,0 +1,130 @@
+﻿빌드 시작: 2016-08-17 오후 8:49:20
+     1>3 노드의 "D:\cocos\SetupTest\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\ /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\editor-support" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\extensions /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos/editor-support" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external /nologo /W3 /WX- /O1 /Oi /Oy- /D WIN32 /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Animation.c ..\AnimationState.c ..\AnimationStateData.c ..\Atlas.c ..\AtlasAttachmentLoader.c ..\Attachment.c ..\AttachmentLoader.c ..\Bone.c ..\BoneData.c ..\BoundingBoxAttachment.c ..\Event.c ..\EventData.c ..\extension.c ..\IkConstraint.c ..\IkConstraintData.c ..\Json.c ..\MeshAttachment.c ..\RegionAttachment.c ..\Skeleton.c ..\SkeletonBounds.c ..\SkeletonData.c ..\SkeletonJson.c ..\Skin.c ..\SkinnedMeshAttachment.c ..\Slot.c ..\SlotData.c
+         Animation.c
+         AnimationState.c
+         AnimationStateData.c
+         Atlas.c
+         AtlasAttachmentLoader.c
+         Attachment.c
+         AttachmentLoader.c
+         Bone.c
+         BoneData.c
+         BoundingBoxAttachment.c
+         Event.c
+         EventData.c
+         extension.c
+         IkConstraint.c
+         IkConstraintData.c
+         Json.c
+         MeshAttachment.c
+         RegionAttachment.c
+         Skeleton.c
+         SkeletonBounds.c
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         SkeletonData.c
+         SkeletonJson.c
+         Skin.c
+         SkinnedMeshAttachment.c
+         Slot.c
+         SlotData.c
+         코드를 생성하고 있습니다...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\ /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\editor-support" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\extensions /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos/editor-support" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /ID:\cocos\SetupTest\cocos2d\cocos\2d\..\..\external /nologo /W3 /WX- /O1 /Oi /Oy- /D WIN32 /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PolygonBatch.cpp ..\SkeletonAnimation.cpp ..\SkeletonRenderer.cpp "..\spine-cocos2dx.cpp"
+         PolygonBatch.cpp
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(135): warning C4251: 'cocos2d::Console::_fds' : class 'std::vector<int,std::allocator<_Ty>>'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(136): warning C4251: 'cocos2d::Console::_thread' : class 'std::thread'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thread(32) : 'std::thread' 선언을 참조하십시오.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(143): warning C4251: 'cocos2d::Console::_commands' : class 'std::map<std::string,cocos2d::Console::Command,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=cocos2d::Console::Command
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(147): warning C4251: 'cocos2d::Console::_DebugStringsMutex' : class 'std::mutex'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mutex(105) : 'std::mutex' 선언을 참조하십시오.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(148): warning C4251: 'cocos2d::Console::_DebugStrings' : class 'std::vector<std::string,std::allocator<_Ty>>'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCConsole.h(152): warning C4251: 'cocos2d::Console::_bindAddress' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::Console'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/ccTypes.h(552): warning C4251: 'cocos2d::FontDefinition::_fontName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'cocos2d::FontDefinition'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\renderer/CCTexture2D.h(538): warning C4251: 'cocos2d::Texture2D::_pixelFormatInfoTables' : class 'std::map<cocos2d::Texture2D::PixelFormat,const cocos2d::Texture2D::PixelFormatInfo,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cocos2d::Texture2D'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Kty=cocos2d::Texture2D::PixelFormat
+         ,            _Ty=const cocos2d::Texture2D::PixelFormatInfo
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\renderer/CCTexture2D.h(547): warning C4251: 'cocos2d::Texture2D::_filePath' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::Texture2D'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCEventTouch.h(92): warning C4251: 'cocos2d::EventTouch::_touches' : class 'std::vector<cocos2d::Touch *,std::allocator<_Ty>>'에서는 class 'cocos2d::EventTouch'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::Touch *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCComponentContainer.h(69): warning C4251: 'cocos2d::ComponentContainer::_componentMap' : class 'std::unordered_map<std::string,cocos2d::Component *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cocos2d::ComponentContainer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=cocos2d::Component *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCComponent.h(83): warning C4251: 'cocos2d::Component::_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::Component'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h(348): warning C4251: 'cocos2d::PhysicsShape::_cpShapes' : class 'std::vector<cpShape *,std::allocator<_Ty>>'에서는 class 'cocos2d::PhysicsShape'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cpShape *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h(66): warning C4251: 'cocos2d::PhysicsBody::COMPONENT_NAME' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::PhysicsBody'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h(513): warning C4251: 'cocos2d::PhysicsBody::_joints' : class 'std::vector<cocos2d::PhysicsJoint *,std::allocator<_Ty>>'에서는 class 'cocos2d::PhysicsBody'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::PhysicsJoint *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h(514): warning C4251: 'cocos2d::PhysicsBody::_shapes' : class 'cocos2d::Vector<cocos2d::PhysicsShape *>'에서는 class 'cocos2d::PhysicsBody'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1907): warning C4251: 'cocos2d::Node::_children' : class 'cocos2d::Vector<cocos2d::Node *>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1912): warning C4251: 'cocos2d::Node::_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1959): warning C4251: 'cocos2d::Node::_onEnterCallback' : class 'std::function<void (void)>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1960): warning C4251: 'cocos2d::Node::_onExitCallback' : class 'std::function<void (void)>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1961): warning C4251: 'cocos2d::Node::_onEnterTransitionDidFinishCallback' : class 'std::function<void (void)>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCNode.h(1962): warning C4251: 'cocos2d::Node::_onExitTransitionDidStartCallback' : class 'std::function<void (void)>'에서는 class 'cocos2d::Node'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCScene.h(136): warning C4251: 'cocos2d::Scene::_cameras' : class 'std::vector<cocos2d::Camera *,std::allocator<_Ty>>'에서는 class 'cocos2d::Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::Camera *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\2d/CCScene.h(141): warning C4251: 'cocos2d::Scene::_lights' : class 'std::vector<cocos2d::BaseLight *,std::allocator<_Ty>>'에서는 class 'cocos2d::Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::BaseLight *
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\platform/CCGLView.h(400): warning C4251: 'cocos2d::GLView::_viewName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'cocos2d::GLView'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCDirector.h(527): warning C4251: 'cocos2d::Director::_modelViewMatrixStack' : class 'std::stack<cocos2d::Mat4,std::deque<_Ty,std::allocator<_Ty>>>'에서는 class 'cocos2d::Director'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::Mat4
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCDirector.h(528): warning C4251: 'cocos2d::Director::_projectionMatrixStack' : class 'std::stack<cocos2d::Mat4,std::deque<_Ty,std::allocator<_Ty>>>'에서는 class 'cocos2d::Director'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::Mat4
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCDirector.h(529): warning C4251: 'cocos2d::Director::_textureMatrixStack' : class 'std::stack<cocos2d::Mat4,std::deque<_Ty,std::allocator<_Ty>>>'에서는 class 'cocos2d::Director'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 with
+                 [
+                     _Ty=cocos2d::Mat4
+                 ]
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCDirector.h(589): warning C4251: 'cocos2d::Director::_scenesStack' : class 'cocos2d::Vector<cocos2d::Scene *>'에서는 class 'cocos2d::Director'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>D:\cocos\SetupTest\cocos2d\cocos\2d\..\..\cocos\base/CCDirector.h(621): warning C4251: 'cocos2d::Director::_cocos2d_thread_id' : class 'std::thread::id'에서는 class 'cocos2d::Director'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thread(167) : 'std::thread::id' 선언을 참조하십시오.
+     1>"D:\cocos\SetupTest\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:07.48

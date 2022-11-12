@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="64" tileheight="64" nextobjectid="72">
+ <tileset firstgid="1" name="Mapchip1" tilewidth="64" tileheight="64" tilecount="0" columns="23">
+  <image source="../타일/Mapchip1.png" width="1516" height="704"/>
+ </tileset>
+ <tileset firstgid="1" name="TileC" tilewidth="64" tileheight="64" tilecount="0" columns="16">
+  <image source="../타일/TileC.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1" name="TileD" tilewidth="64" tileheight="64" tilecount="1" columns="16">
+  <image source="../타일/TileD.png" width="1024" height="1024"/>
+  <tile id="75">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="77" name="TileB" tilewidth="64" tileheight="64" tilecount="0" columns="16">
+  <image source="../타일/TileB.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="77" name="TileA3" tilewidth="64" tileheight="64" tilecount="0" columns="8">
+  <image source="../타일/TileA3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="77" name="TileA4" tilewidth="64" tileheight="64" tilecount="0" columns="8">
+  <image source="../타일/TileA4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="77" name="TileA4" tilewidth="64" tileheight="64" tilecount="0" columns="8">
+  <image source="../타일/TileA4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="77" name="Map 5" tilewidth="64" tileheight="64" tilecount="15" columns="32">
+  <image source="Map 5.png" width="2048" height="1536"/>
+  <tile id="100">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="390">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="476" name="Map 5" tilewidth="64" tileheight="64" tilecount="16" columns="32">
+  <image source="Map 5.png" width="2048" height="1536"/>
+  <tile id="100">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="360">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="391">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="416">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="893" name="Map 5-1" tilewidth="64" tileheight="64" tilecount="768" columns="32">
+  <image source="Map5-1.png" width="2048" height="1536"/>
+  <tile id="100">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Window" value="True"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="DrainCleaner" value="True"/>
+   </properties>
+  </tile>
+  <tile id="174">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="CleanBox" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="Collidable" value="False"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Spigot" value="True"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Toilet" value="True"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="ManFrame" value="True"/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="WomanFrame" value="True"/>
+   </properties>
+  </tile>
+  <tile id="269">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="324">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="358">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Door" value="True"/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="389">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="394">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Pot" value="True"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="Bath" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="Woman Frame" visible="0">
+  <object id="47" x="579" y="576" width="59" height="63"/>
+ </objectgroup>
+ <objectgroup name="Man Frame" visible="0">
+  <object id="48" x="514" y="577" width="59" height="60"/>
+ </objectgroup>
+ <objectgroup name="Bath" visible="0">
+  <object id="49" x="832" y="770" width="61" height="61"/>
+ </objectgroup>
+ <objectgroup name="Door" visible="0">
+  <object id="50" x="385" y="643" width="62" height="60"/>
+ </objectgroup>
+ <objectgroup name="Spigot" visible="0">
+  <object id="54" x="642" y="386" width="119" height="123"/>
+ </objectgroup>
+ <objectgroup name="Box" visible="0">
+  <object id="55" x="321" y="451" width="61" height="60"/>
+ </objectgroup>
+ <objectgroup name="Toilet" visible="0">
+  <object id="61" x="963" y="387" width="123" height="124"/>
+ </objectgroup>
+ <objectgroup name="Drain Cleaner" visible="0">
+  <object id="63" x="770" y="386" width="61" height="95"/>
+ </objectgroup>
+ <objectgroup name="Window" visible="0">
+  <object id="64" x="450" y="386" width="61" height="59"/>
+ </objectgroup>
+ <objectgroup name="Cleaning Equipment Closet" visible="0">
+  <object id="65" x="322" y="450" width="59" height="59"/>
+ </objectgroup>
+ <layer name="Background51" width="32" height="24">
+  <data encoding="base64">
+   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IwUAACMFAAAjBQAAIwUAACMFAAAjBQAAIwUAACMFAAAjBQAAIwUAACMFAAAjBQAAIwUAAOQEAABGBQAARwUAAEgFAABJBQAASgUAAEsFAABMBQAATQUAAE4FAABPBQAAUAUAAFEFAABSBQAAUwUAAFQFAABVBQAA5AQAAOQEAADkBAAA5AQAAOQEAADkBAAA5AQAAOQEAADkBAAA5AQAAOQEAADkBAAA5AQAAOQEAADkBAAA5AQAAGYFAABnBQAAaAUAAGkFAABqBQAAawUAAGwFAABtBQAAbgUAAG8FAABwBQAAcQUAAHIFAABzBQAAdAUAAHUFAAACBQAAAgUAAAIFAAACBQAAAgUAAAIFAAACBQAAAgUAAAIFAAACBQAAAgUAAAIFAAACBQAAAgUAAAIFAAACBQAAhgUAAIcFAACIBQAAiQUAAIoFAACLBQAAjAUAAI0FAACOBQAAjwUAAJAFAACRBQAAkgUAAJMFAACUBQAAlQUAACQFAAAkBQAAJAUAACQFAAAkBQAAJAUAACQFAAAkBQAAJAUAACQFAAAkBQAAJAUAACQFAAAkBQAAJAUAACQFAACmBQAApwUAAKgFAACpBQAAqgUAAKsFAACsBQAArQUAAK4FAACvBQAAsAUAALEFAACyBQAAswUAALQFAAC1BQAAzwUAANAFAADRBQAA0gUAANMFAADUBQAA1QUAAL0FAAC+BQAAvwUAAMAFAADBBQAAwgUAAMMFAADEBQAAxQUAAMYFAADHBQAAyAUAAMkFAADKBQAAywUAAMwFAADNBQAAzgUAAM8FAADQBQAA0QUAANIFAADTBQAA1AUAANUFAADvBQAA8AUAAPEFAADyBQAA8wUAAPQFAAD1BQAA3QUAAN4FAADfBQAA4AUAAOEFAADiBQAA4wUAAOQFAADlBQAA5gUAAOcFAADoBQAA6QUAAOoFAADrBQAA7AUAAO0FAADuBQAA7wUAAPAFAADxBQAA8gUAAPMFAAD0BQAA9QUAAA8GAAAQBgAAEQYAABIGAAATBgAAFAYAABUGAAD9BQAA/gUAAP8FAAAABgAAAQYAAAIGAAADBgAABAYAAAUGAAAGBgAABwYAAAgGAAAJBgAACgYAAAsGAAAMBgAADQYAAA4GAAAPBgAAEAYAABEGAAASBgAAEwYAABQGAAAVBgAALwYAADAGAAAxBgAAMgYAADMGAAA0BgAANQYAAB0GAAAeBgAAHwYAACAGAAAhBgAAIgYAACMGAAAkBgAAJQYAACYGAAAnBgAAKAYAACkGAAAqBgAAKwYAACwGAAAtBgAALgYAAC8GAAAwBgAAMQYAADIGAAAzBgAANAYAADUGAABPBgAAUAYAAFEGAABSBgAAUwYAAFQGAABVBgAAPQYAAD4GAAA/BgAAQAYAAEEGAABCBgAAQwYAAEQGAABFBgAARgYAAEcGAABIBgAASQYAAEoGAABLBgAATAYAAE0GAABOBgAATwYAAFAGAABRBgAAUgYAAFMGAABUBgAAVQYAAG8GAABwBgAAcQYAAHIGAABzBgAAdAYAAHUGAABdBgAAXgYAAF8GAABgBgAAYQYAAGIGAABjBgAAZAYAAGUGAABmBgAAZwYAAGgGAABpBgAAagYAAGsGAABsBgAAbQYAAG4GAABvBgAAcAYAAHEGAAByBgAAcwYAAHQGAAB1BgAA
+  </data>
+ </layer>
+ <objectgroup name="PlayerSpawn51">
+  <object id="69" name="PlayerSpawnXY51" x="1154" y="640" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Pot" visible="0">
+  <object id="71" x="640" y="725.333" width="105.333" height="106.667"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="64" tileheight="64" nextobjectid="46">
+ <tileset firstgid="1" name="TileA5" tilewidth="64" tileheight="64" tilecount="0" columns="8">
+  <image source="../타일/TileA5.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="1" name="Mapchip1" tilewidth="64" tileheight="64" tilecount="0" columns="23">
+  <image source="../타일/Mapchip1.png" width="1516" height="704"/>
+ </tileset>
+ <tileset firstgid="1" name="TileC" tilewidth="64" tileheight="64" tilecount="0" columns="16">
+  <image source="../타일/TileC.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1" name="TileA3" tilewidth="64" tileheight="64" tilecount="0" columns="8">
+  <image source="../타일/TileA3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1" name="TileD" tilewidth="64" tileheight="64" tilecount="0" columns="16">
+  <image source="../타일/TileD.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1" name="Map 2" tilewidth="64" tileheight="64" tilecount="73" columns="32">
+  <image source="Map 2.png" width="2048" height="1536"/>
+  <tile id="203">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="236">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="CoinBank" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="302">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Drawer" value="True"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="Closet" value="True"/>
+    <property name="Coin" value="True"/>
+    <property name="Collidable" value="True"/>
+    <property name="Safe" value="True"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Collidable" value="False"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Laptop" value="True"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="428">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="DeskDrawer" value="True"/>
+   </properties>
+  </tile>
+  <tile id="434">
+   <properties>
+    <property name="Bed" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="435">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="Bed" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Door" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="723" name="Map2" tilewidth="64" tileheight="64" tilecount="768" columns="32">
+  <image source="Map2.png" width="2048" height="1536"/>
+  <tile id="203">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="CoinBank" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="302">
+   <properties>
+    <property name="Bookshelf" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Drawer" value="True"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Safe" value="True"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Collidable" value="False"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Laptop" value="True"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="428">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="DeskDrawer" value="True"/>
+   </properties>
+  </tile>
+  <tile id="434">
+   <properties>
+    <property name="Bed" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="Bed" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Door" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="Laptop">
+  <object id="25" x="768" y="742.667" width="60" height="52"/>
+ </objectgroup>
+ <objectgroup name="Desk Drawer">
+  <object id="28" x="832" y="833.333" width="61.3333" height="60"/>
+ </objectgroup>
+ <objectgroup name="Closet">
+  <object id="33" x="1216" y="640" width="62.6667" height="61.3333"/>
+ </objectgroup>
+ <objectgroup name="Safe">
+  <object id="34" x="1214.67" y="640" width="62.6667" height="60"/>
+ </objectgroup>
+ <objectgroup name="Coin">
+  <object id="36" x="1216" y="641.333" width="60" height="57.3333"/>
+ </objectgroup>
+ <objectgroup name="Coin Bank">
+  <object id="38" x="1022.67" y="577.333" width="64" height="60"/>
+ </objectgroup>
+ <objectgroup name="Drawer">
+  <object id="39" x="1162.67" y="642.667" width="41.3333" height="56"/>
+ </objectgroup>
+ <objectgroup name="Bed">
+  <object id="41" x="1100" y="788" width="113.333" height="166.667"/>
+ </objectgroup>
+ <objectgroup name="Bookshelf">
+  <object id="42" x="766.667" y="641.333" width="65.3333" height="60"/>
+ </objectgroup>
+ <objectgroup name="PlayerSpawn2">
+  <object id="44" name="PlayerSpawnXY2" x="1048" y="848" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Door">
+  <object id="45" x="959" y="960" width="63" height="62"/>
+ </objectgroup>
+ <layer name="Background2" width="32" height="24">
+  <properties>
+   <property name="Collidable" value="True"/>
+  </properties>
+  <data encoding="base64">
+   0wIAANQCAADVAgAA1gIAANcCAADYAgAA2QIAANoCAADbAgAA3AIAAN0CAADeAgAA3wIAAOACAADhAgAA4gIAAOMCAADkAgAA5QIAAOYCAADnAgAA6AIAAOkCAADqAgAA6wIAAOwCAADtAgAA7gIAAO8CAADwAgAA8QIAAPICAADzAgAA9AIAAPUCAAD2AgAA9wIAAPgCAAD5AgAA+gIAAPsCAAD8AgAA/QIAAP4CAAD/AgAAAAMAAAEDAAACAwAAAwMAAAQDAAAFAwAABgMAAAcDAAAIAwAACQMAAAoDAAALAwAADAMAAA0DAAAOAwAADwMAABADAAARAwAAEgMAABMDAAAUAwAAFQMAABYDAAAXAwAAGAMAABkDAAAaAwAAGwMAABwDAAAdAwAAHgMAAB8DAAAgAwAAIQMAACIDAAAjAwAAJAMAACUDAAAmAwAAJwMAACgDAAApAwAAKgMAACsDAAAsAwAALQMAAC4DAAAvAwAAMAMAADEDAAAyAwAAMwMAADQDAAA1AwAANgMAADcDAAA4AwAAOQMAADoDAAA7AwAAPAMAAD0DAAA+AwAAPwMAAEADAABBAwAAQgMAAEMDAABEAwAARQMAAEYDAABHAwAASAMAAEkDAABKAwAASwMAAEwDAABNAwAATgMAAE8DAABQAwAAUQMAAFIDAABTAwAAVAMAAFUDAABWAwAAVwMAAFgDAABZAwAAWgMAAFsDAABcAwAAXQMAAF4DAABfAwAAYAMAAGEDAABiAwAAYwMAAGQDAABlAwAAZgMAAGcDAABoAwAAaQMAAGoDAABrAwAAbAMAAG0DAABuAwAAbwMAAHADAABxAwAAcgMAAHMDAAB0AwAAdQMAAHYDAAB3AwAAeAMAAHkDAAB6AwAAewMAAHwDAAB9AwAAfgMAAH8DAACAAwAAgQMAAIIDAACDAwAAhAMAAIUDAACGAwAAhwMAAIgDAACJAwAAigMAAIsDAACMAwAAjQMAAI4DAACPAwAAkAMAAJEDAACSAwAAkwMAAJQDAACVAwAAlgMAAJcDAACYAwAAmQMAAJoDAACbAwAAnAMAAJ0DAACeAwAAngMAAJ4DAACeAwAAngMAAJ4DAACeAwAAngMAAJ4DAACeAwAAqAMAAKkDAACqAwAAqwMAAKwDAACtAwAArgMAAK8DAACwAwAAsQMAALIDAACzAwAAtAMAALUDAAC2AwAAtwMAALgDAAC5AwAAugMAALsDAAC8AwAAvQMAAJ4DAAC/AwAAvwMAAL8DAAC/AwAAwwMAAL8DAAC/AwAAvwMAAJ4DAADIAwAAyQMAAMoDAADLAwAAzAMAAM0DAADOAwAAzwMAANADAADRAwAA0gMAANMDAADUAwAA1QMAANYDAADXAwAA2AMAANkDAADaAwAA2wMAANwDAADdAwAAngMAAN8DAADgAwAA4QMAAOIDAADjAwAA5AMAAOUDAADmAwAAngMAAOgDAADpAwAA6gMAAOsDAADsAwAA7QMAAO4DAADvAwAA8AMAAPEDAADyAwAA8wMAAPQDAAD1AwAA9gMAAPcDAAD4AwAA+QMAAPoDAAD7AwAA/AMAAP0DAACeAwAA/wMAAAAEAAABBAAAHwQAAB8EAAAfBAAABQQAAAYEAACeAwAACAQAAAkEAAAKBAAACwQAAAwEAAANBAAADgQAAA8EAAAQBAAAEQQAABIEAAATBAAAFAQAABUEAAAWBAAAFwQAABgEAAAZBAAAGgQAABsEAAAcBAAAHQQAAJ4DAAAfBAAAHwQAAB8EAAAfBAAAHwQAAB8EAAAfBAAAHwQAAJ4DAAAoBAAAKQQAACoEAAArBAAALAQAAC0EAAAuBAAALwQAADAEAAAxBAAAMgQAADMEAAA0BAAANQQAADYEAAA3BAAAOAQAADkEAAA6BAAAOwQAADwEAAA9BAAAngMAAB8EAAAfBAAAHwQAAB8EAAAfBAAAHwQAAB8EAAAfBAAAngMAAEgEAABJBAAASgQAAEsEAABMBAAATQQAAE4EAABPBAAAUAQAAFEEAABSBAAAUwQAAFQEAABVBAAAVgQAAFcEAABYBAAAWQQAAFoEAABbBAAAXAQAAF0EAACeAwAAXwQAAGAEAAAfBAAAHwQAAB8EAAAfBAAAHwQAAGYEAACeAwAAaAQAAGkEAABqBAAAawQAAGwEAABtBAAAbgQAAG8EAABwBAAAcQQAAHIEAABzBAAAdAQAAHUEAAB2BAAAdwQAAHgEAAB5BAAAegQAAHsEAAB8BAAAfQQAAJ4DAAB/BAAAHwQAAB8EAAAfBAAAHwQAAB8EAACFBAAAhgQAAJ4DAACIBAAAiQQAAIoEAACLBAAAjAQAAI0EAACOBAAAjwQAAJAEAACRBAAAkgQAAJMEAACUBAAAlQQAAJYEAACXBAAAmAQAAJkEAACaBAAAmwQAAJwEAACdBAAAngMAAJ4DAACeAwAAngMAAB8EAAAfBAAAHwQAAKUEAACmBAAAngMAAKgEAACpBAAAqgQAAKsEAACsBAAArQQAAK4EAACvBAAAsAQAALEEAACyBAAAswQAALQEAAC1BAAAtgQAALcEAAC4BAAAuQQAALoEAAC7BAAAvAQAAL0EAAC+BAAAvgQAAL4EAACeAwAAHwQAAJ4DAACeAwAAngMAAJ4DAACeAwAAyAQAAMkEAADKBAAAywQAAMwEAADNBAAAzgQAAM8EAADQBAAA0QQAANIEAADTBAAA1AQAANUEAADWBAAA1wQAANgEAADZBAAA2gQAANsEAADcBAAA3QQAAN4EAADeBAAA3gQAAL4EAADiBAAAvgQAAL4EAAC+BAAAvgQAAL4EAADoBAAA6QQAAOoEAADrBAAA7AQAAO0EAADuBAAA7wQAAPAEAADxBAAA8gQAAPMEAAD0BAAA9QQAAPYEAAD3BAAA+AQAAPkEAAD6BAAA+wQAAPwEAAD9BAAA/gQAAP8EAAAABQAA3gQAAAIFAADeBAAA3gQAAN4EAADeBAAA3gQAAAgFAAAJBQAACgUAAAsFAAAMBQAADQUAAA4FAAAPBQAAEAUAABEFAAASBQAAEwUAABQFAAAVBQAAFgUAABcFAAAYBQAAGQUAABoFAAAbBQAAHAUAAB0FAAAeBQAAHwUAACAFAAAhBQAAIgUAACMFAAAkBQAAJQUAACYFAAAnBQAAKAUAACkFAAAqBQAAKwUAACwFAAAtBQAALgUAAC8FAAAwBQAAMQUAADIFAAAzBQAANAUAADUFAAA2BQAANwUAADgFAAA5BQAAOgUAADsFAAA8BQAAPQUAAD4FAAA/BQAAQAUAAEEFAABCBQAAQwUAAEQFAABFBQAARgUAAEcFAABIBQAASQUAAEoFAABLBQAATAUAAE0FAABOBQAATwUAAFAFAABRBQAAUgUAAFMFAABUBQAAVQUAAFYFAABXBQAAWAUAAFkFAABaBQAAWwUAAFwFAABdBQAAXgUAAF8FAABgBQAAYQUAAGIFAABjBQAAZAUAAGUFAABmBQAAZwUAAGgFAABpBQAAagUAAGsFAABsBQAAbQUAAG4FAABvBQAAcAUAAHEFAAByBQAAcwUAAHQFAAB1BQAAdgUAAHcFAAB4BQAAeQUAAHoFAAB7BQAAfAUAAH0FAAB+BQAAfwUAAIAFAACBBQAAggUAAIMFAACEBQAAhQUAAIYFAACHBQAAiAUAAIkFAACKBQAAiwUAAIwFAACNBQAAjgUAAI8FAACQBQAAkQUAAJIFAACTBQAAlAUAAJUFAACWBQAAlwUAAJgFAACZBQAAmgUAAJsFAACcBQAAnQUAAJ4FAACfBQAAoAUAAKEFAACiBQAAowUAAKQFAAClBQAApgUAAKcFAACoBQAAqQUAAKoFAACrBQAArAUAAK0FAACuBQAArwUAALAFAACxBQAAsgUAALMFAAC0BQAAtQUAALYFAAC3BQAAuAUAALkFAAC6BQAAuwUAALwFAAC9BQAAvgUAAL8FAADABQAAwQUAAMIFAADDBQAAxAUAAMUFAADGBQAAxwUAAMgFAADJBQAAygUAAMsFAADMBQAAzQUAAM4FAADPBQAA0AUAANEFAADSBQAA
+  </data>
+ </layer>
+</map>
